@@ -19,7 +19,7 @@ display the data from the form after it has been submitted by the user.
    route.
 
    The form should have fields for:
-   Team name ('name')
+   Team name ('name')6
    Coach ('coach')
    Point Guard ('pg')
    Shooting Guard ('sg')

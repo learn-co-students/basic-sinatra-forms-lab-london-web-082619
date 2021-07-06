@@ -5,9 +5,15 @@
   <title>Basketball Team</title>
  </head>
  <body>
- 
-
-
+    <% team = [] %>
+    <% @basketball_team.each { |key, value| team << value } %>
+    <h1>Team Name: <%= team[0] %></h1>
+    <p>Coach: <%= team[1] %></p>
+    <p>Point Guard: <%= team[2] %></p>
+    <p>Shooting Guard: <%= team[3] %></p>
+    <p>Small Forward: <%= team[4] %></p>
+    <p>Power Forward: <%= team[5] %></p>
+    <p>Center: <%= team[6] %></p>
  </body>
 </html>
 
